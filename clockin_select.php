@@ -120,7 +120,7 @@ if ($attendance->getNonPaidIn()) {
     </fieldset>
     <p><a class="btn btn-dark float-left" href="clockin_select.php?back=true">Back</a></p>
     <?php if ($user->getUserType() != 'Guest'): ?>
-    <p><a class="btn btn-dark float-right" href="pin_change.php?id=<?= $user->getID() ?>">Change PIN</a></p>
+    <p><button class="btn btn-dark float-right not-allowed" href="#" disabled>Change PIN</button></p>
     <?php endif ?>
     </form>
     </div><!--col-md-6 col-sm-8 col-lg-6-->
