@@ -63,7 +63,7 @@ $relative_root = $_ENV['ROOT'];
       Other
     </button>
     <div class="dropdown-menu" aria-labelledby="btnGroupDrop">
-        <a href="#" id="change-pin-button" class="dropdown-item" data-id="<?= $form_user->getID() ?>">Change PIN</a>
+        <a href="#" class="dropdown-item not-allowed" data-id="<?= $form_user->getID() ?>" style="cursor:not-allowed !important;" disabled>Change PIN</a>
         <?php if ($form_user->getStatus() == 'active'): ?>
             <a href="partials/offboard_user.php?id=<?= $form_user->getID() ?>" id="offboard-user-button" class="dropdown-item text-danger">Off-board</a>
         <?php else: ?>

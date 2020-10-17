@@ -60,9 +60,6 @@ if ($attendance->getNonPaidIn()) {
         <?php endif ?>
     <form action="login.php" method="post">
     <fieldset class="form-group">
-        <?php if (date('H:i') >= date('H:i', strtotime($settings->getClockOutTime())) && !($user->getUserType()->getID() == GUEST)): ?>
-            <button type="submit" name="clock_radio" value="clockout" class="btn btn-dark m-1 p-5 w-100">Clock Out</button>
-        <?php else: ?>
             <?php if (!$attendance->getClockIn() && $user->getUserType() != 'Guest'): ?>
             
                 <button type="submit" name="clock_radio" value="clockin" class="btn btn-dark m-1 p-5 w-100">
@@ -120,7 +117,6 @@ if ($attendance->getNonPaidIn()) {
                     <br />
                 <?php endforeach ?>
             <?php endif ?>
-        <?php endif ?>
     </fieldset>
     <p><a class="btn btn-dark float-left" href="clockin_select.php?back=true">Back</a></p>
     <?php if ($user->getUserType() != 'Guest'): ?>

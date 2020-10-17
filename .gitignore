@@ -5,3 +5,4 @@ tests/insert-steph.sql
 node_modules
 admin/mysql-dump/*
 .vscode
+deploy.php
