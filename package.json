@@ -1,0 +1,41 @@
+{
+  "name": "c4smb_attendance",
+  "version": "1.0.0",
+  "description": "Attendance App is an application built using PHP, and is intended to log employee's work times and provided useful reports for managers.",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syrissel/c4smb_attendance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syrissel/c4smb_attendance/issues"
+  },
+  "homepage": "https://github.com/syrissel/c4smb_attendance#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@fullcalendar/bootstrap": "^5.3.1",
+    "@fullcalendar/core": "^5.3.1",
+    "@fullcalendar/daygrid": "^5.3.2",
+    "@fullcalendar/interaction": "^5.3.1",
+    "@popperjs/core": "^2.5.3",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "popper.js": "^1.16.1",
+    "tooltip-js": "^3.0.0"
+  }
+}

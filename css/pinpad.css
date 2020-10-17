@@ -1,0 +1,202 @@
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+.btn-outline-secondary:hover {
+    color: #6c757d !important;
+    background-color: #FFF !important;
+    border-color: #6c757d !important;
+}
+
+.btn-outline-secondary:focus, .btn-outline-secondary:active {
+    outline: none !important;
+    box-shadow: none !important;
+ }
+
+/* .container {
+    padding-bottom: 10rem !important;
+} */
+
+#code {
+    font-size: 2rem;
+    border: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* #username {
+    font-size: 2rem;
+} */
+
+.pin_button {
+    padding: 2rem 0 2rem 0 !important;
+    font-size: 2rem !important;
+    border: none !important;
+}
+
+.pin_button p {
+    padding: 2rem 0 2rem 0 !important;
+    font-size: 20px !important;
+}
+
+#go {
+    padding: 0 !important;
+    padding-left: 0px !important;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* #pin0 {
+    padding-left: 2px !important;
+}
+
+#pin1 {
+    padding-right: 4px !important;
+}
+
+#pin2 {
+    padding-right: 2px !important;
+}
+
+#pin5 {
+    padding-left: 2px !important;
+}
+
+#pin6 {
+    padding-left: 2px !important;
+} */
+
+#del {
+    /* padding: 0px !important; */
+    font-size: 26px !important;
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+} */
+
+.container {
+    min-height: calc(100vh - 120px) !important;
+}
+
+.modal-content .container {
+    min-height: 0 !important;
+}
+
+.footer {
+    min-height: 130px !important;
+}
+
+.footer ul {
+    padding-top: 2rem;
+}
+
+.footer .row {
+    margin: 0;
+}
+
+img {
+    width: 100px;
+}
+
+#datepicker_dummy_container {
+    visibility: hidden;
+    position: absolute;
+    /* left: 5rem; */
+}
+
+/* #reports_form_container {
+    margin: 0 auto;
+    text-align: center;
+} */
+/* #datepicker_container {
+    text-align: center;
+} */
+
+/* .pin-back-button {
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+} */
+
+@media screen and ( max-width: 500px) {
+    #login_guest_link {
+      display: none;
+    }
+
+    #nav-column {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    #admin-link {
+      display: none;
+    }
+
+    .pin_button {
+        padding: 1rem 0 1rem 0 !important;
+        font-size: 2rem !important;
+        border: none !important;
+    }
+
+    #login-title {
+        font-size: 1.5rem !important;
+    }
+
+    #code {
+        font-size: 2rem;
+        border: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+  }
+
+  #jump_to_user {
+      top: 14rem;
+      right: 6rem;
+  }
+
+  #breakdown {
+      margin-top: 4rem;
+  }
+
+  @media screen and (max-width: 1730px) {
+      #jump_to_user {
+          right: 3rem;
+      }
+  }
+
+  @media screen and (max-width: 1600px) {
+      #jump_to_user {
+          right: 0;
+      }
+  }
+
+  @media screen and (max-width: 1599px) {
+      #jump_to_user {
+          display: none;
+      }
+  }
+
+  .fc-event-main {
+      cursor: pointer;
+  }
+
+#main_nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.not-allowed {
+    cursor: not-allowed !important;
+}

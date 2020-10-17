@@ -1,0 +1,11 @@
+use usermanagement;
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-13 08:24:23', '2020-07-13 16:27:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-14 08:20:23', '2020-07-14 16:30:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-15 08:12:23', '2020-07-15 16:28:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-16 08:15:23', '2020-07-16 16:27:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-17 09:24:23', '2020-07-17 16:29:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-20 08:25:23', '2020-07-20 15:28:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-21 08:27:23', '2020-07-21 16:29:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-22 08:05:23', '2020-07-22 16:01:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-23 08:24:23', '2020-07-23 16:30:23', (SELECT id FROM users WHERE username = 'smireault'));
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-24 08:25:23', '2020-07-24 16:27:23', (SELECT id FROM users WHERE username = 'smireault'));

@@ -1,0 +1,11 @@
+use usermanagement;
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-13 08:24:23', '2020-07-13 16:27:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-14 08:25:23', '2020-07-14 16:30:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-15 08:24:23', '2020-07-15 16:28:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-16 08:27:23', '2020-07-16 16:27:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-17 08:28:23', '2020-07-17 16:29:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-20 08:25:23', '2020-07-20 16:28:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-21 08:29:23', '2020-07-21 16:30:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-22 08:29:23', '2020-07-22 16:30:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-23 08:24:23', '2020-07-23 16:30:23', 175);
+INSERT INTO attendances (clockin, clockout, user_id) VALUES ('2020-07-24 08:25:23', '2020-07-24 16:27:23', 175);

@@ -1,0 +1,7 @@
+.env
+db-setup/db-setup-test.sql
+db-setup/db-deploy.sql
+tests/insert-steph.sql
+node_modules
+admin/mysql-dump/*
+.vscode

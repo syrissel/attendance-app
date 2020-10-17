@@ -1,0 +1,43 @@
+.sidebar-wrapper {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 65px;
+    left: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.container {
+    transition: margin-left 0.3s;
+}
+
+.navbar-header {
+    padding: 1rem;
+}
+
+.sidebar-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.sidebar-content li:hover {
+    background-color: #e2e2e2;
+}
+
+.sidebar-content li {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.sidebar-content a {
+    color: #000;
+}
+
+.sidebar-content a:hover {
+    text-decoration: none;
+}

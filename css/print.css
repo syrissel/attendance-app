@@ -1,0 +1,42 @@
+@media print {
+    form, #reports_menu, #print_button, h2, #reports-heading, .footer, .print_link, .alert-warning, .notes, .user-list-item, .report-title, hr,
+    #jump_to_user, #breakdown, #help_button, .sidebar-wrapper, .form-container {
+        display: none;
+    }
+
+    .back-button { 
+        display: none !important;
+    }
+
+    .service-team {
+        color: #CBCBCB;
+    }
+
+    .container {
+        margin-top: 2rem;
+    }
+
+    .date-heading {
+        width: 100%;
+        text-align: center !important;
+        padding-bottom: 1rem;
+    }
+
+    h4 {
+        padding-bottom: 1.5rem !important;
+    }
+
+    table { 
+        break-inside: avoid;
+        margin: 0px auto;
+        width: 85% !important;
+    }
+    tr    { page-break-inside:avoid !important; page-break-after:auto !important; }
+
+    table .bg-secondary {
+        border: none !important;
+    }
+    * {
+        float: none !important;
+    }
+}
